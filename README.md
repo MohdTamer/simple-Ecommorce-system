@@ -18,23 +18,14 @@ specific quantity not more than the available product quantity.
 ■ customer current balance after payment
 ○ Give an error if
 ■ Cart is empty
-■ Customer's balance is insu
-
-cient.
+■ Customer's balance is insufficient.
 ■ one product is out of stock or expired.
 ○ If applicable, collect all items that need to be shipped and
 send them to ShippingService which accepts a list of
 objects implementing an interface containing only String
 getName() and double getWeight() methods.
 
-
-Notes:
-● The solution is to be submitted with any programming
-language (Java is recommended).
-● Cover corner cases, Provide assumptions when needed.
-● Solutions based on AI-generated content are not permitted.
-● Provide code examples that prove your code is working as
-expected covering all use cases, for example:
+example:
 cart.add(cheese, 2);
 cart.add(tv, 3);
 cart.add(scratchCard, 1);
